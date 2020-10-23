@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro practica 01</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="/register/addUser" method="post">
+        <div class="caption">Ingrese sus datos</div>
+        <input type="nombre" placeholder="Ingrese su nombre completo" name="name" <%=user[i].name; %> <br>
+        <input type="email" placeholder="Ingrese correo electronico" name="email" <%=user[i].email; %> <br>
+        <input type="password" placeholder="Ingrese su contraseña" name="password" <%=user[i].password; %> <br>
+        <a href="/">Ya tienes una cuenta?</a> <br>
+        <button type="submit">Registrar</button>
+    </form>
+</body>
+</html>

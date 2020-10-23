@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login practica 01</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="/login" method="post">
+        <div class="caption">Ingrese sus datos</div>
+        <input type="email" placeholder="Ingrese correo electronico" name="email" <%=user[i].email; %> <br>
+        <input type="password" placeholder="Ingrese su contraseña" name="password" <%=user[i].password; %> <br>
+        <a href="/register">No tienes cuenta?</a> <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
